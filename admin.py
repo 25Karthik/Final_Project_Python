@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 key_value = {"Karthik": "karthik@321"}
 
 menu = {1: {'Food Name': 'Chicken Kabbab', 'Food ID': 2, 'Price': 150, 'Discount': 0, 'Stock': 123}}
