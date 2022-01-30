@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import admin
 
 class User:
@@ -89,10 +83,3 @@ class User:
 
 karthik = User("karthik", "9945623593", "karthik.3268@gmail.com", "Mysuru,karnataka", "karthik$123")
 jeevan=  User("jeevan", "98801500023", "jeevan3568@gmail.com", "Bangaluru,karnataka", "jeevan*123")
-
-
-# In[ ]:
-
-
-
-
