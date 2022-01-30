@@ -1,3 +1,4 @@
+import random
 key_value = {"Karthik": "karthik@321"}
 
 menu = {1: {'Food Name': 'Chicken Kabbab', 'Food ID': 2, 'Price': 150, 'Discount': 0, 'Stock': 123}}
@@ -18,7 +19,7 @@ def edit_menu():
 
 def add_new_item():
     food_name = input("Enter the foood name: ")
-    food_id = int(input("Enter the food id: "))
+    food_id = random.randint(5,1000)
     price = int(input("Enter the price of the food: "))
     discount = int(input("Enter the discount of food: "))
     stock = int(input("Enter te stock value of food: "))
